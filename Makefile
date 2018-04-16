@@ -18,7 +18,7 @@ NewRelicAgent.a: NewRelic_iOS_Agent_$(VERSION).zip
 
 NewRelicXamarin.iOS.dll: NewRelicAgent.a
 	$(MONOXBUILD) /p:Configuration=Release NewRelicXamarin.iOS.csproj
-	cp bin/Release/NewRelicXamarin.iOS.dll NewRelicXamarin.iOS.$(VERSION).dll
+	cp bin/Release/NewRelicXamarin.iOS.dll NewRelicXamarin.iOS.dll
 
 clean:
 	-rm -rf bin obj *.a *.dll

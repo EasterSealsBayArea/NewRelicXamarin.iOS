@@ -6,9 +6,9 @@ Instructions for iOS:
 1. Checkout NewRelicXamarin.iOS from https://github.com/lnpquang/NewRelicXamarin.iOS.
 
 2. Open terminal, go to NewRelicXamarin.iOS folder and run command: make 
-After build process is completed. A NewRelicXamarin.iOS.{version}.dll is created in NewRelicXamarin.iOS project folder
+After build process is completed. A NewRelicXamarin.iOS.dll is created in NewRelicXamarin.iOS project folder
 
-3. Open SC solution, add reference to NewRelicXamarin.iOS.{version}.dll file in ESSC.iOS. 
+3. Open SC solution, add reference to NewRelicXamarin.iOS.dll file in ESSC.iOS. 
 
 4. Open file config.json in ESSC project, update value of "newrelicToken" variable.
 
